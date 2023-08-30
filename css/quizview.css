@@ -1,0 +1,68 @@
+body {
+    background-size: cover;
+    font-family: Arial, sans-serif;
+	background: url("blue.jpg") no-repeat center center fixed;
+    background-size: cover;
+	margin: 0;
+	padding: 0;
+    color: white;
+}
+.header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px;
+	color: white;
+}
+.header__buttons a {
+	color: white;
+	text-decoration: none;
+}
+.header__buttons a:hover {
+	background-color: #4682B4;
+}
+.header__button {
+    background-color: transparent;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 2px solid white;
+    box-sizing: border-box;
+    margin-right: 10px;
+}
+.logo {
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 2px solid white;
+    padding-right: 10px;
+    padding-left: 10px;
+    text-decoration: none;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+th, td {
+    border: 1px solid #4682B4;
+    padding: 8px;
+    text-align: left;
+}
+th {
+    background-color: #4682B4;
+}
+td {
+    color: #4682B4;
+    background-color: white;
+}
+tr{
+    height: 50px;
+}
+.back-button {
+    font-size: 50px;
+    background-color: transparent;
+    border: none;
+}
